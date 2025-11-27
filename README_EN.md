@@ -30,7 +30,7 @@ Visit **[EMCP Platform](https://sit-emcp.kaleido.guru)** now to start your MCP j
 
 ## Introduction
 
-This is an automatically generated MCP server using [FastMCP](https://fastmcp.wiki) for accessing the Fresh Linkedin Profile Data API.
+This is an MCP server for accessing the Fresh Linkedin Profile Data API.
 
 - **PyPI Package**: `bach-fresh_linkedin_profile_data`
 - **Version**: 1.0.0
@@ -108,8 +108,8 @@ export API_KEY="your_api_key_here"
 {
   "mcpServers": {
     "fresh_linkedin_profile_data": {
-      "command": "python",
-      "args": ["E:\path\to\fresh_linkedin_profile_data\server.py"],
+      "command": "uvx",
+      "args": ["--from", "bach-fresh_linkedin_profile_data", "bach_fresh_linkedin_profile_data"],
       "env": {
         "API_KEY": "your_api_key_here"
       }
