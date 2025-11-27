@@ -33,7 +33,7 @@
 這是一個 MCP 伺服器，用於存取 Fresh Linkedin Profile Data API。
 
 - **PyPI 套件名**: `bach-fresh_linkedin_profile_data`
-- **版本**: 1.0.0
+- **版本**: 2.0.0
 - **傳輸協定**: stdio
 
 
@@ -742,4 +742,4 @@ Get more profile’s data fields like languages, top skills, certifications, pub
 
 此伺服器由 [API-to-MCP](https://github.com/BACH-AI-Tools/api-to-mcp) 工具自動生成。
 
-版本: 1.0.0
+版本: 2.0.0

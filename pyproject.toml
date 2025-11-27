@@ -1,6 +1,6 @@
 [project]
 name = "bach-fresh_linkedin_profile_data"
-version = "1.0.0"
+version = "2.0.0"
 description = "RapidAPI: freshdata-freshdata-default/fresh-linkedin-profile-data"
 readme = "README.md"
 requires-python = ">=3.10"
